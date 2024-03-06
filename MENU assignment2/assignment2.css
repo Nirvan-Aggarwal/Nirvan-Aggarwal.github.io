@@ -1,0 +1,55 @@
+
+*{
+    box-sizing:border-box;
+    }
+
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div{
+    background-color:gray;
+    min-height:auto;
+    margin-left: auto;
+    margin-right:auto ;
+    border:5px solid black;
+    margin: 5px;
+    float: left;
+}
+h2{
+    border:solid black;
+    border-top:0px;
+    border-right: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    width:min-content;
+    float:right;
+}
+h2.pink{
+ background-color: pink;
+}
+h2.red{
+ background-color: crimson;
+}
+h2.yellow{
+ background-color: yellow;
+}
+p{
+    font-size: 1.5em;
+}
+@media(min-width: 992px){
+    div{
+        width:32%;
+    }
+}
+@media(min-width: 768px) and (max-width: 991px){
+    .divone{
+        width:47%;
+    }
+    .divtwo{
+        width:47%;
+    }
+    .divthree{
+        width:95%;
+    }
+}
